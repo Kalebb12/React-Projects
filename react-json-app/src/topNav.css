@@ -1,0 +1,17 @@
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    border-bottom: 1px solid black;
+    white-space:nowrap;
+    padding:0px 5px;
+    gap: 30px;
+}
+.nav-header{
+    color: tomato;
+}
+.nav-item{
+    display: flex;
+    gap: 10px;
+}
