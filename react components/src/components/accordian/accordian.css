@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(238, 238, 238);
+}
+.accordian{
+    width: 500px;
+}
+.item{
+    background-color: skyblue;
+    margin-bottom: 20px;
+    padding:20px 30px;
+}
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.content{
+    color: black;
+    height: auto;
+}
+/* .question:active{
+    background-color: rgb(238, 238, 238);
+} */
