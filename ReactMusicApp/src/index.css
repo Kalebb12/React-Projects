@@ -1,0 +1,66 @@
+.white {
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 255, 88);
+}
+.flex {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.artist {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.margin {
+    margin-right: 10px;
+}
+
+.block {
+    display: block;
+
+}
+
+.center {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+.image {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+.input {
+    background-color: rgb(48, 42, 42);
+    border: 1px solid white;
+    width: 100%;
+    margin: 10px auto;
+    font-size: xx-large;
+
+    float: left;
+}
+
+.searchBtn {
+    background-color: grey;
+    color: rgb(33, 33, 33);
+    font-size: xx-large;
+    float: left;
+    margin-top: 10px;
+    padding: 2.7px;
+}
+
+.sch {
+    display: flex;
+    flex-direction: column;
+}
